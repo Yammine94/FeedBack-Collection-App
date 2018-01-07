@@ -20,8 +20,7 @@ passport.use(new googleStrategy({
     clientSecret: config.goolgleClientSecret,
     callbackURL: '/auth/google/callback'
 }, (accessToken, refreshToken, profile, done) => {
-    console.log(accessToken);
-    console.log(profile);
+    
     User.findOne({userId: profile.id})
      .then((user) => {
          if(user) {
