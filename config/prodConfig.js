@@ -8,5 +8,10 @@ module.exports = {
     
     //Google
     googleClientID: process.env.GOOGLE_CLIENT_ID,
-    goolgleClientSecret: process.env.GOOGLE_CLIENT_SECRET
+    goolgleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
+
+    //Stripe
+    stripePublishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
+    stripeSecretKey: process.env.STRIPE_SECRET_KEY
+
 };

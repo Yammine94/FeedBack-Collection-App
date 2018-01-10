@@ -8,5 +8,9 @@ module.exports = {
     
     //Google
     googleClientID: "13378230070-qocsa0v43kphrece94q1kcmr2kadl49e.apps.googleusercontent.com",
-    goolgleClientSecret: "HjxRX6MPIs-zDYi5KPFJwSbT"
+    goolgleClientSecret: "HjxRX6MPIs-zDYi5KPFJwSbT",
+
+    //Stripe
+    stripePublishableKey: "pk_test_oHkJ5zU2MX5SHZX6AZgtzQMG",
+    stripeSecretKey: "sk_test_AMSAdiPswzcZIaEbB41IfUqT"
 };
